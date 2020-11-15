@@ -74,8 +74,8 @@ class Movie(models.Model):
         return self.title
    
     class Meta: 
-        verbose_name = "Жанр" 
-        verbose_name_plural = "Жанры" 
+        verbose_name = "Фильм" 
+        verbose_name_plural = "Фильмы" 
     
 
 class MovieShots(models.Model):
